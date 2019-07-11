@@ -101,6 +101,7 @@ nav a {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	width: 100%;
 	padding-bottom: 4%;
 	/* height:500px; */
@@ -108,7 +109,8 @@ nav a {
 }
 
 .innovation{
-	
+	display: flex;
+	flex-direction: column
 }
 
 h1 {
@@ -151,11 +153,12 @@ h2 {
 .bottomContent {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-top: 3%;
 	height: 20%;
 }
 .bottomInfo{
-	width: 31%;
+	width: 350px;
 }
 
 .contact{
