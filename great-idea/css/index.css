@@ -129,6 +129,7 @@ h2 {
 	border: 1px solid gray;
 	padding: 10px 30px;
 	margin: 21px 87px;
+	white-space: nowrap;
 }
 
 .topContent {
@@ -155,10 +156,10 @@ h2 {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	margin-top: 3%;
-	height: 20%;
 }
 .bottomInfo{
 	width: 350px;
+	margin-top: 3%;
 }
 
 .contact{
@@ -174,6 +175,7 @@ h2 {
 	width: 12%;
 	height: 61px;
 	line-height: 20px;
+	white-space: nowrap;
 }
 
 address{
